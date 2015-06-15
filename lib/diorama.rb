@@ -1,0 +1,2 @@
+module Diorama
+end
