@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Body:</b>
+  <%= @diorama_template.body %>
+</p>
+
+<p>
+  <b>Path:</b>
+  <%= @diorama_template.path %>
+</p>
+
+<p>
+  <b>Locale:</b>
+  <%= @diorama_template.locale %>
+</p>
+
+<p>
+  <b>Format:</b>
+  <%= @diorama_template.format %>
+</p>
+
+<p>
+  <b>Handler:</b>
+  <%= @diorama_template.handler %>
+</p>
+
+<p>
+  <b>Partial:</b>
+  <%= @diorama_template.partial %>
+</p>
+
+
+<%= link_to 'Edit', edit_diorama_template_path(@diorama_template) %> |
+<%= link_to 'Back', diorama_templates_path %>

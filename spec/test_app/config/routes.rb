@@ -1,4 +1,7 @@
 TestApp::Application.routes.draw do
+  resources :diorama_templates
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
