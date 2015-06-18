@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Store Rails view templates in your database."
   s.description = "This Gem allows Rails applications to store it's view templates in it's database."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", "~> 3.2.21"
 
